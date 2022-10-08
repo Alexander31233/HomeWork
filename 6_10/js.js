@@ -13,3 +13,6 @@ num2 /= 15;
 --num2;
 alert(num2);
 
+let num4 = 12;
+++num4;
+alert(num4);

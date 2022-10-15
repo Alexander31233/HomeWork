@@ -9,7 +9,7 @@ console.log(result);
 let arr = [ 2 , 5 ,6 ,7 ,4 ,3 , 8, 1 ,10 , 11];
 let res = 0;
 for (let b = 0; b < arr.length; b++){
-    res = arr[b] ** 2;
+    res += arr[b] && arr[b] ** 2 ;
     console.log(res);
 }
 */

@@ -29,14 +29,14 @@ let gName = getName( "Vasiliy");
 console.log(gName);
 
 
-let array = [1, 2 ,3 ,4 ,5 ,6 ,7];
+
 
 function massivex2(arr) {
-    for (let i = 0; i < array.length; i++){
-        array = array[i] * 2;
-
+    let array = [];
+    for (let i = 0; i < arr.length; i++){
+        array.push(arr[i] * 2);
     }
-    return arr;
+    return console.log(array);
 }
-let res = massivex2();
+let res = massivex2([1 ,2 ,3 , 4 ,5 ,6]);
 console.log(res);

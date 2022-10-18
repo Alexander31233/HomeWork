@@ -1,42 +1,34 @@
-function hello() {
-    return document.write("Hello Javascript");
+const hello = () => {
+    let message = "Hello , JavaScript"
+    return message;
 }
-hello();
+
+let result = hello();
+console.log(result);
 
 
-
-function numCube(x) {
-    return x ** 3;
-
+const numCube = num => {
+    let result = num ** 3;
+    console.log(result);
 }
-let num = numCube(5);
-console.log(num);
+numCube( 5);
+numCube( 65);
 
 
-
-
-let name = "Vasiliy"
-
-function getName(x, message ="Vasiliy") {
-    if (name = "Vasiliy"){
-        return "Hello Vasiliy";
-    }else{
-        return "Hello guest";
-    }
-
+const getName = (uName = "guest") => {
+    let str = `Hello ${uName}`;
+    console.log(str);
 }
-let gName = getName( "Vasiliy");
-console.log(gName);
+let name = "Vasiliy";
+getName(name);
+getName();
 
 
-
-
-function massivex2(arr) {
-    let array = [];
+const doubleNums = (arr) => {
+    let newArr = [];
     for (let i = 0; i < arr.length; i++){
-        array.push(arr[i] * 2);
+        newArr.push(arr[i] * 2);
+
     }
-    return console.log(array);
+    return newArr;
 }
-let res = massivex2([1 ,2 ,3 , 4 ,5 ,6]);
-console.log(res);

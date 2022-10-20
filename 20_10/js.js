@@ -1,9 +1,15 @@
-/*
+
 let arr = [];
-let pushArr = (a , x) => {
-    pushArr(a) =
-// }not done
- */
+let pushArr = (name , num) => {
+   for (let i =0; i < num;i++){
+       arr.push(num[i] = name);
+   }
+   return arr;
+}
+let res = pushArr(5, 10);
+console.log(res);
+
+
 //
 // let array = [1 , 2, 3, ];
 // let revArr = (arr) =>{
@@ -24,4 +30,4 @@ for (let i = 0; i < a.length; i++){
     }else if (a[i] === 0){
         break;
     }
-}*/
+}*//*not done*/

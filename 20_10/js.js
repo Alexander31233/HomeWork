@@ -2,7 +2,7 @@
 let arr = [];
 let pushArr = (name , num) => {
    for (let i =0; i < num;i++){
-       arr.push(num[i] = name);
+       arr.push(name);
    }
    return arr;
 }
@@ -19,15 +19,16 @@ console.log(res);
 // let res = revArr(array);
 // alert(res);
 //
-
 /*
+
 let a = toNumber(prompt());
 for (let i = 0; i < a.length; i++){
-    if(a[i] > 0){
+    if(+a[i] > 0){
         alert("Plus");
-    }else if(a[i] < 0){
+    }else if(+a[i] < 0){
         alert("Minus")
-    }else if (a[i] === 0){
+    }else if (+a[i] === 0){
         break;
     }
-}*//*not done*/
+}
+*/
